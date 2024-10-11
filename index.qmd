@@ -1,0 +1,157 @@
+---
+title: "Social Data Analytics"
+author: Rick Gilmore
+format: 
+  revealjs:
+    footer: "SoDA for Psych Grads"
+    slide-number: true
+    fig-align: center
+    logo: https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg
+    css: include/css/gilmore-revealjs.css
+    multiplex: true
+knitr:
+  opts_chunk:
+    fig.path: include/fig/
+---
+
+---
+
+```{r}
+#| label: fig-qr-code-talk
+#| fig-cap: "https://psu-psychology.github.io/soda"
+code <- qrcode::qr_code("https://psu-psychology.github.io/soda")
+plot(code)
+```
+
+## Agenda
+
+- Who is this guy?
+- Quantitative methods in the Department
+- Social Data Analytics (SoDA) dual-title program
+
+# Who is this guy?
+
+---
+
+- Professor of Psychology (Cognitive & Developmental)
+- Penn State 1997-
+- B.A., Cognitive Science, Brown University
+- M.S. & Ph.D., Psychology (Cognitive Neuroscience), Carnegie Mellon University
+- Human brain development, perception & action, computational modeling, machine vision, big data, open science
+
+---
+
+- Founding Director of Human Imaging, Penn State Social, Life & Engineering Sciences Imaging Center (SLEIC), 2008-2014
+- Co-Founder/Co-Director of [Databrary.org](https://databrary.org) data library, 2012-
+- Co-PI [Play & Learning Across a Year (PLAY) Project](https://play-project.org), 2016-
+- [Open Scholarship Initiative](https://github.com/penn-state-open-science) team lead, 2022-
+- [gilmore-lab.github.io](https://gilmore-lab.github.io); [rick-gilmore.com](https://rick-gilmore.com); [w3tm.org](https://w3tm.org)
+
+---
+
+- banjo & harmonica player, actor, cyclist, backpacker, paddler, poet, ham ([W3TM](https://w3tm.org)), amateur astronomer
+- Judge of Elections (Precinct 26, State College East 3)
+- native Coloradoan, naturalized Pennsylvanian, husband, dad, grandpa
+
+---
+
+![](include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg){fig-align="center"}
+
+# Quantitative methods in the Department
+
+---
+
+![Fall 2023 psych grads survey from <https://psu-psychology.github.io/quant-methods-committee/2023-fall-grad-survey.html#fig-n-stats-courses-by-respondent-cohort-year>](https://psu-psychology.github.io/quant-methods-committee/2023-fall-grad-survey_files/figure-html/fig-n-stats-courses-by-respondent-cohort-year-1.png){width=70% height=70%}
+---
+
+>In most cohorts, 50% or more of the respondents are taking courses beyond the requirements.
+
+<https://psu-psychology.github.io/quant-methods-committee/2023-fall-grad-survey.html>
+
+## More on quantitative methods in the department
+
+- [github.com/psu-psychology/quant-methods-committee](https://github.com/psu-psychology/quant-methods-committee)
+- <https://psu-psychology.github.io/quant-methods-committee>
+- [github.com/psu-psychology](https://github.com/psu-psychology)
+
+## More about open scholarship initiatives
+
+- [github.com/penn-state-open-science](https://github.com/penn-state-open-science)
+- [Open Science Bootcamp 2023](https://penn-state-open-science.github.io/bootcamp-2023/)
+- Open Science Interest Survey [full protocol](https://penn-state-open-science.github.io/survey-fall-2022/) and [results](https://penn-state-open-science.github.io/survey-fall-2022/data-visualization.html)
+
+# Social Data Analytics (SoDA)
+
+## What is it?
+
+## {background-iframe="https://soda.la.psu.edu"}
+
+## Requirements
+
+- [SODA 501](https://bulletins.psu.edu/search/?P=SODA%20501) (3 credits), [SODA 502](https://bulletins.psu.edu/search/?P=SODA%20502) (3 credits)
+- 12 or more elective credits
+  - Core analytics distribution (3+ credits)
+  - Quantification distribution (6+ credits)
+  - Computational/informational distribution (6+ credits)
+  - Social distribution (6+ credits)
+
+<https://bulletins.psu.edu/graduate/programs/majors/social-data-analytics/#degreerequirementstext>
+
+## More...
+
+>**the typical SoDA student will need to take four 3-credit courses outside of their home department**: two core SoDA seminars and two electives that satisfy requirements not satisfied in their home department.
+
+>**the typical SoDA student will not have to alter their committee.**
+
+<https://soda.la.psu.edu/programs/graduate-program/requirements/>
+
+## Applying
+
+>Applicants interested in the dual-title degree program may make their interest in the program known on their applications to the primary graduate program and include remarks in their statement of purpose that address the ways in which their research and professional goals in their chosen primary field reflect an expanded interest in Social Data Analytics.
+
+<https://bulletins.psu.edu/graduate/programs/majors/social-data-analytics/#admissionrequirementstext>
+
+---
+
+>...a student must submit a letter of application and transcript, which will be reviewed by the Social Data Analytics Admissions Committee. An applicant must have a minimum grade point average of 3.0 (on a 4-point scale) to be considered for enrollment in the dual-title degree program. 
+
+<https://bulletins.psu.edu/graduate/programs/majors/social-data-analytics/#admissionrequirementstext>
+
+---
+
+>Students must be admitted into the dual-title degree program in Social Data Analytics **no later than the end of the fourth semester** (not counting summer semesters) of entry into the primary Ph.D. program and before taking the comprehensive exam.
+
+<https://bulletins.psu.edu/graduate/programs/majors/social-data-analytics/#admissionrequirementstext>
+
+## Who's doing it: Grads
+
+- [Full cohort](https://soda.la.psu.edu/people/committees/c-soda-graduate-students/)
+- Psychology
+  - [Amanda Moeller](https://soda.la.psu.edu/people/anm332/)
+  - [Joseph Guerriero](https://soda.la.psu.edu/people/jgg5264/)
+  - [David Schillinger](https://soda.la.psu.edu/people/djs6947/)
+  
+## Who's doing it: Psych fac
+
+- Jonathan Cook
+- Rick Gilmore
+- Frank Hillary
+- Sean Laurent
+- James LeBreton
+- Frank Ritter
+
+# Resources
+
+## Code
+
+This talk was produced on `r Sys.Date()` in [RStudio](http://rstudio.com) using [Quarto](https://quarto.org) and the [revealJS](https://quarto.org/docs/presentations/revealjs/) framework.
+
+The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/soda/>.
+
+## {.scrollable}
+
+Information about the R Session that produced the code is as follows:
+
+```{r session-info}
+sessionInfo()
+```
