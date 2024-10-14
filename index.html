@@ -388,7 +388,7 @@ Figure&nbsp;1: https://psu-psychology.github.io/soda
 <section class="slide level2">
 
 
-<img data-src="include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section></section>
+<img data-src="include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg" class="r-stretch quarto-figure-center"><p class="caption">Totality from Ashtabula, OH, April 8, 2024</p></section></section>
 <section>
 <section id="quantitative-methods-in-the-department" class="title-slide slide level1 center">
 <h1>Quantitative methods in the Department</h1>
@@ -484,15 +484,25 @@ Figure&nbsp;1: https://psu-psychology.github.io/soda
 </section>
 <section id="whos-doing-it-grads" class="slide level2">
 <h2>Who’s doing it: Grads</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li><a href="https://soda.la.psu.edu/people/committees/c-soda-graduate-students/">Full cohort</a></li>
-<li>Psychology
-<ul>
-<li><a href="https://soda.la.psu.edu/people/anm332/">Amanda Moeller</a></li>
-<li><a href="https://soda.la.psu.edu/people/jgg5264/">Joseph Guerriero</a></li>
-<li><a href="https://soda.la.psu.edu/people/djs6947/">David Schillinger</a></li>
-</ul></li>
+<li>Lexi Baird, Clinical (Hillary)</li>
+<li>Zoe Baker, Social (Swim)</li>
+<li>Demet Basar, Social (Vescio)</li>
+<li>Chelsea Basore, I/O (Simkins)</li>
+<li>Candice Basterfield, Clinical (Newman)</li>
+<li>Emily Beattie, Clinical (Castonguay)</li>
 </ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Alexa Becker, Cognitive (Dennis)</li>
+<li>Olivia Bell, Developmental (Perez-Edgar)</li>
+<li>Katie Billetdeaux, Developmental (Scherf)</li>
+<li>Sherille Bosfield, Clinical (Jackson)</li>
+<li>Megan Bradson, Clinical (Arnett)</li>
+</ul>
+</div></div>
 </section>
 <section id="whos-doing-it-psych-fac" class="slide level2">
 <h2>Who’s doing it: Psych fac</h2>
@@ -504,6 +514,12 @@ Figure&nbsp;1: https://psu-psychology.github.io/soda
 <li>James LeBreton</li>
 <li>Frank Ritter</li>
 </ul>
+</section>
+<section id="open-scholarship-penn-state" class="slide level2">
+<h2>Open Scholarship @ Penn State</h2>
+<ul>
+<li><a href="https://penn-state-open-science.github.io/outreach-talk/" class="uri">https://penn-state-open-science.github.io/outreach-talk/</a></li>
+</ul>
 </section></section>
 <section>
 <section id="resources" class="title-slide slide level1 center">
@@ -512,7 +528,7 @@ Figure&nbsp;1: https://psu-psychology.github.io/soda
 </section>
 <section id="code" class="slide level2">
 <h2>Code</h2>
-<p>This talk was produced on 2024-10-11 in <a href="http://rstudio.com">RStudio</a> using <a href="https://quarto.org">Quarto</a> and the <a href="https://quarto.org/docs/presentations/revealjs/">revealJS</a> framework.</p>
+<p>This talk was produced on 2024-10-14 in <a href="http://rstudio.com">RStudio</a> using <a href="https://quarto.org">Quarto</a> and the <a href="https://quarto.org/docs/presentations/revealjs/">revealJS</a> framework.</p>
 <p>The code and materials used to generate the slides may be found at <a href="https://github.com/psu-psychology/soda/" class="uri">https://github.com/psu-psychology/soda/</a>.</p>
 </section>
 <section id="section-1" class="slide level2 scrollable">
@@ -905,6 +921,8 @@ loaded via a namespace (and not attached):
             if (link.dataset.originalHref !== undefined) {
               link.href = link.dataset.originalHref;
             }
+              // default icon
+              link.classList.add("external");
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

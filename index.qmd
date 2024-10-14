@@ -9,6 +9,7 @@ format:
     logo: https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg
     css: include/css/gilmore-revealjs.css
     multiplex: true
+    link-external-icon: true
 knitr:
   opts_chunk:
     fig.path: include/fig/
@@ -55,7 +56,7 @@ plot(code)
 
 ---
 
-![](include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg){fig-align="center"}
+![Totality from Ashtabula, OH, April 8, 2024](include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg){fig-align="center"}
 
 # Quantitative methods in the Department
 
@@ -125,11 +126,23 @@ plot(code)
 
 ## Who's doing it: Grads
 
-- [Full cohort](https://soda.la.psu.edu/people/committees/c-soda-graduate-students/)
-- Psychology
-  - [Amanda Moeller](https://soda.la.psu.edu/people/anm332/)
-  - [Joseph Guerriero](https://soda.la.psu.edu/people/jgg5264/)
-  - [David Schillinger](https://soda.la.psu.edu/people/djs6947/)
+:::: {.columns}
+::: {.column width="50%"}
+- Lexi Baird, Clinical (Hillary)
+- Zoe Baker, Social (Swim)
+- Demet Basar, Social (Vescio)
+- Chelsea Basore, I/O (Simkins)
+- Candice Basterfield, Clinical (Newman)
+- Emily Beattie, Clinical (Castonguay)
+:::
+::: {.column width="50%"}
+- Alexa Becker, Cognitive (Dennis)
+- Olivia Bell, Developmental (Perez-Edgar)
+- Katie Billetdeaux, Developmental (Scherf)
+- Sherille Bosfield, Clinical (Jackson)
+- Megan Bradson, Clinical (Arnett)
+:::
+::::
   
 ## Who's doing it: Psych fac
 
@@ -139,6 +152,10 @@ plot(code)
 - Sean Laurent
 - James LeBreton
 - Frank Ritter
+
+## Open Scholarship @ Penn State
+
+- <https://penn-state-open-science.github.io/outreach-talk/>
 
 # Resources
 
